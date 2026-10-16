@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/card_stroke"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grade_scale_title"
+                    android:textColor="@color/primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/grade_scale_desc"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Grade Scale Table Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/card_stroke"
+            app:strokeWidth="1dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:stretchColumns="0,1,2">
+
+                <!-- Table Header -->
+                <TableRow
+                    android:background="@color/primary_light"
+                    android:paddingVertical="10dp">
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Grade"
+                        android:textColor="@color/primary_dark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Grade Point"
+                        android:textColor="@color/primary_dark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Performance"
+                        android:textColor="@color/primary_dark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <!-- Row O -->
+                <TableRow android:paddingVertical="8dp">
+                    <TextView
+                        android:padding="8dp"
+                        android:text="O"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="10.0"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Outstanding"
+                        android:textColor="@color/success" />
+                </TableRow>
+
+                <!-- Row A+ -->
+                <TableRow android:paddingVertical="8dp">
+                    <TextView
+                        android:padding="8dp"
+                        android:text="A+"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="9.0"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Excellent"
+                        android:textColor="@color/success" />
+                </TableRow>
+
+                <!-- Row A -->
+                <TableRow android:paddingVertical="8dp">
+                    <TextView
+                        android:padding="8dp"
+                        android:text="A"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="8.0"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Very Good"
+                        android:textColor="@color/info" />
+                </TableRow>
+
+                <!-- Row B+ -->
+                <TableRow android:paddingVertical="8dp">
+                    <TextView
+                        android:padding="8dp"
+                        android:text="B+"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="7.0"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Good"
+                        android:textColor="@color/info" />
+                </TableRow>
+
+                <!-- Row B -->
+                <TableRow android:paddingVertical="8dp">
+                    <TextView
+                        android:padding="8dp"
+                        android:text="B"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="6.0"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Above Average"
+                        android:textColor="@color/text_secondary" />
+                </TableRow>
+
+                <!-- Row C -->
+                <TableRow android:paddingVertical="8dp">
+                    <TextView
+                        android:padding="8dp"
+                        android:text="C"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="5.0"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Average"
+                        android:textColor="@color/warning" />
+                </TableRow>
+
+                <!-- Row P -->
+                <TableRow android:paddingVertical="8dp">
+                    <TextView
+                        android:padding="8dp"
+                        android:text="P"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="4.0"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Pass"
+                        android:textColor="@color/warning" />
+                </TableRow>
+
+                <!-- Row F -->
+                <TableRow android:paddingVertical="8dp">
+                    <TextView
+                        android:padding="8dp"
+                        android:text="F"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:padding="8dp"
+                        android:text="Fail"
+                        android:textColor="@color/error" />
+                </TableRow>
+
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Project & Database Info Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/card_stroke"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Project &amp; Database Information"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_database"
+                        app:tint="@color/success" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="SQLite Database: Connected &amp; Active"
+                        android:textColor="@color/success"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Developed by: Adarsh Das (MY.AC.I5MCA24064)"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Course: Mobile Application Development"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

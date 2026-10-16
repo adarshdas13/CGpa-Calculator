@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors (Maroon Theme) -->
+    <color name="primary">#800020</color>
+    <color name="primary_dark">#500014</color>
+    <color name="primary_light">#FDF0F3</color>
+    <color name="accent">#A01235</color>
+
+    <!-- Background & Surface Colors (Clean White) -->
+    <color name="bg_light">#FAFAFA</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_stroke">#EAE0E2</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#21080E</color>
+    <color name="text_secondary">#6E555A</color>
+    <color name="text_muted">#A38E93</color>
+
+    <!-- Functional / Status Colors -->
+    <color name="success">#15803D</color>
+    <color name="success_light">#F0FDF4</color>
+    <color name="warning">#B45309</color>
+    <color name="warning_light">#FFFBEB</color>
+    <color name="error">#B91C1C</color>
+    <color name="error_light">#FEF2F2</color>
+    <color name="info">#800020</color>
+    <color name="info_light">#FDF0F3</color>
+
+    <!-- Gradient Header Colors (Rich Maroon Gradient) -->
+    <color name="gradient_start">#800020</color>
+    <color name="gradient_end">#A01235</color>
+    <color name="gold">#F59E0B</color>
+
+    <!-- Basic Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

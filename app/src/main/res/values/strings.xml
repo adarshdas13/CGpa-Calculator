@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">GPA &amp; CGPA Calculator</string>
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_history">Database History</string>
+    <string name="nav_scale">Grade Scale</string>
+
+    <!-- Calculator Fragment -->
+    <string name="gpa_result_title">Current Semester GPA</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="calculate_gpa">Calculate GPA</string>
+    <string name="save_to_database">Save Semester Record</string>
+    <string name="total_credits_label">Total Credits:</string>
+    <string name="total_subjects_label">Subjects:</string>
+    <string name="subject_name_hint">Subject / Course Name</string>
+    <string name="credits_hint">Credits (e.g. 3 or 4)</string>
+
+    <!-- History Fragment -->
+    <string name="cgpa_summary_title">Cumulative GPA (CGPA)</string>
+    <string name="overall_cgpa">CGPA</string>
+    <string name="saved_semesters_title">Saved Semesters in Database</string>
+    <string name="no_history_title">No Saved Records Yet</string>
+    <string name="no_history_desc">Calculate your GPA and save semester records to track your academic progress and database entries.</string>
+    <string name="clear_all_history">Clear All Database Records</string>
+
+    <!-- Grade Scale Fragment -->
+    <string name="grade_scale_title">Grading System Reference</string>
+    <string name="grade_scale_desc">Grade points and percentage equivalents used for GPA calculation.</string>
+
+    <!-- Dialogs -->
+    <string name="save_dialog_title">Save Semester to Database</string>
+    <string name="semester_name_hint">Semester Name (e.g. Semester 1, Fall 2024)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Performance Ratings -->
+    <string name="rating_outstanding">Outstanding performance! 🌟</string>
+    <string name="rating_excellent">Excellent work! 🎯</string>
+    <string name="rating_very_good">Very Good! 👍</string>
+    <string name="rating_good">Good job! 😊</string>
+    <string name="rating_average">Fair performance. Keep improving! 💪</string>
+    <string name="rating_pass">Pass grade. Focus on higher scores! 📚</string>
+    <string name="rating_fail">Needs Improvement. Don\'t give up! 💡</string>
+</resources>
